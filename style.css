@@ -34,11 +34,10 @@ body {
 }
 
 /* Navbar Links */
-.navbar a {
-  text-decoration-style: none; /* TODO check why is not working */
+.nav a {
+  text-decoration: none; /* TODO check why is not working */
   color: #f3f9c8;
   font-size: 18px;
-  font-weight: bold;
 }
 
 /* Specifics for the navbar container*/
@@ -49,10 +48,44 @@ body {
   height: 100%;
 }
 
+/* Setting links as inlines */
 .nav ul {
   display: flex;
 }
 
+/* Styling link items */
 .nav ul li {
   margin-left: 20px;
+}
+
+/* Main Header */
+.hero {
+  background-color: #132a13;
+  color: #f3f9c8;
+  padding: 40px;
+}
+
+/* Title */
+.hero h1 {
+  font-size: 48px;
+  font-weight: extra-bold;
+  text-align: center;
+}
+
+.hero p {
+  text-align: center;
+}
+
+/* Image sizes */
+.hero img {
+  width: 300px;
+  height: auto;
+  margin-left: 20px;
+}
+
+/* Styling the header */
+.hero .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
