@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900,900i");
+
+/* Reseting browser default */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* General specifications */
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  color: #070e07;
+}
+
+/* Containers will be used in all main sections of the page */
+.container {
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+/* Navbar */
+.nav {
+  background-color: #132a13;
+  color: #f3f9c8;
+  height: 60px;
+}
+
+/* Logo */
+.nav .header {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Navbar Links */
+.navbar a {
+  text-decoration-style: none; /* TODO check why is not working */
+  color: #f3f9c8;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Specifics for the navbar container*/
+.nav .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.nav ul {
+  display: flex;
+}
+
+.nav ul li {
+  margin-left: 20px;
+}
