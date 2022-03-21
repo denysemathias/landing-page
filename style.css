@@ -35,7 +35,7 @@ body {
 
 /* Navbar Links */
 .nav a {
-  text-decoration: none; /* TODO check why is not working */
+  text-decoration: none;
   color: #f3f9c8;
   font-size: 18px;
 }
@@ -55,6 +55,7 @@ body {
 
 /* Styling link items */
 .nav ul li {
+  list-style: none;
   margin-left: 20px;
 }
 
@@ -88,4 +89,32 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+/* Styling Information Header */
+.info .header {
+  font-size: 36px;
+  font-weight: extra-bold;
+  text-align: center;
+}
+
+/* Styling Images */
+.info img {
+  width: 200px;
+  height: auto;
+  border-radius: 10px;
+  border: 8px solid #132a13;
+}
+
+.info .container {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  margin: 40px auto;
+}
+
+.info .flowers {
+  margin: 20px;
+  align-items: center;
+  text-align: center;
 }
