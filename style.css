@@ -77,7 +77,6 @@ body {
   text-align: center;
 }
 
-
 /* Image sizes */
 .hero img {
   width: 300px;
@@ -94,7 +93,7 @@ body {
 }
 
 .hero button {
-  background-color: : #b8c892;
+  background-color: #b8c892;
   border: none;
   color: #132a13;
   font-weight: bold;
@@ -119,7 +118,6 @@ body {
   border-radius: 10px;
   border: 8px solid #132a13;
 }
-
 
 /* Styling Information Section */
 .info .container {
