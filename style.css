@@ -77,11 +77,13 @@ body {
   text-align: center;
 }
 
+
 /* Image sizes */
 .hero img {
   width: 300px;
   height: auto;
   margin-left: 20px;
+  border-radius: 5px;
 }
 
 /* Styling the header */
@@ -91,11 +93,23 @@ body {
   justify-content: space-between;
 }
 
+.hero button {
+  background-color: : #b8c892;
+  border: none;
+  color: #132a13;
+  font-weight: bold;
+  margin-top: 20px;
+  padding: 15px;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
 /* Styling Information Header */
 .info .header {
   font-size: 36px;
   font-weight: extra-bold;
   text-align: center;
+  margin-top: 30px;
 }
 
 /* Styling Images */
@@ -106,6 +120,8 @@ body {
   border: 8px solid #132a13;
 }
 
+
+/* Styling Information Section */
 .info .container {
   display: flex;
   justify-content: space-around;
@@ -113,8 +129,25 @@ body {
   margin: 40px auto;
 }
 
+/* Styling Content */
 .info .flowers {
   margin: 20px;
   align-items: center;
   text-align: center;
+}
+
+.quote .container {
+  background-color: #b8c892;
+  align-items: center;
+  padding: 40px;
+}
+
+.quote .text {
+  margin-bottom: 10px;
+  text-align: justify;
+}
+
+.quote .citation {
+  font-weight: bold;
+  text-align: end;
 }
