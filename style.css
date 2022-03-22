@@ -101,6 +101,7 @@ body {
   padding: 15px;
   border-radius: 5px;
   font-size: 18px;
+  text-align: center;
 }
 
 /* Styling Information Header */
@@ -161,10 +162,9 @@ body {
   border-radius: 10px;
 }
 
-.action actionCall {
+.action .actionCall {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  flex-direction: column;
 }
 
 /* TODO Find out what's my problem with buttons */
