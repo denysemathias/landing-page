@@ -134,12 +134,14 @@ body {
   text-align: center;
 }
 
+/* Styling Quote Box */
 .quote .container {
   background-color: #b8c892;
   align-items: center;
   padding: 40px;
 }
 
+/* Styling Quote Content */
 .quote .text {
   margin-bottom: 10px;
   text-align: justify;
@@ -148,4 +150,31 @@ body {
 .quote .citation {
   font-weight: bold;
   text-align: end;
+}
+
+/* Call to Action  */
+.action .container {
+  background-color: #5e975e;
+  color: #f3f9c8;
+  margin: 40px 150px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.action actionCall {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* TODO Find out what's my problem with buttons */
+.action button {
+  background-color: #5e975e;
+  color: #f3f9c8;
+  border: #f3f9c8 solid 2px;
+  font-weight: bold;
+  margin-top: 20px;
+  padding: 15px;
+  border-radius: 5px;
+  font-size: 18px;
 }
